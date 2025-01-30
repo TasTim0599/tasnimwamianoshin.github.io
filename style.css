@@ -1,0 +1,87 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 60px;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Contact Form */
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #333;
+  color: white;
+}
